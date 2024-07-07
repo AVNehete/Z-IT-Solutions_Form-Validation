@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Gallery</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Registration Form</h1>
+    <form id="registration-form" onsubmit="return validateForm()">
+      <div class="form-group">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username" required>
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="firstname">Firstname:</label>
+        <input type="text" id="firstname" name="firstname" required>
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="lastname">Lastname:</label>
+        <input type="text" id="lastname" name="lastname" required>
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="number">Mobile Number:</label>
+        <input type="text" id="number" name="number" required>
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" required>
+        <span class="error-message"></span>
+      </div>
+      <div class="form-group">
+        <label for="confirm-password">Confirm Password:</label>
+        <input type="password" id="confirm-password" name="confirm-password" required>
+        <span class="error-message"></span>
+      </div>
+      <button class="btn" type="submit">Submit</button>
+    </form>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
