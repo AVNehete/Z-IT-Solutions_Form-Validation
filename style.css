@@ -103,5 +103,9 @@ input:hover{
   
   .error-message {
     width: 50%;
-}
+  }
+  .btn{
+    height: 28px;
+    margin-top: 15px;
+  }
 }
