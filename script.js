@@ -96,5 +96,9 @@ function validateForm() {
     confirmPasswordError.textContent = '';
   }
 
+  if (isValid) {
+    alert("Congratulations, Your Registration Was Successful");
+  }
+
   return isValid;
 }
